@@ -1,8 +1,6 @@
 import { Button } from './ui/button';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight, Link, Play } from 'lucide-react';
 import { motion } from 'framer-motion';;
-import { Button } from "@/components/ui/button";
-import { Play } from "lucide-react";
 
 export const Hero = () => {
   return (
@@ -35,12 +33,12 @@ export const Hero = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button size="lg" className="group">
+              <Button className="group">
                 Book Appointment
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
               <Link href="public\Yoga_Video_Generation_for_Ads.mp4" target="_blank">
-              <Button size="lg" variant="outline" className="group">
+              <Button className="group border border-primary text-primary hover:bg-primary/10">
               <Play className="mr-2 h-4 w-4" />
                     Watch Video
               </Button>
