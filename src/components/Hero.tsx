@@ -1,7 +1,6 @@
 import { Button } from './ui/button';
 import { ArrowRight, Play } from 'lucide-react';
-import { motion } from 'framer-motion';
-import { Link } from "next/link";
+import { motion } from 'framer-motion';;
 import { Button } from "@/components/ui/button";
 import { Play } from "lucide-react";
 
